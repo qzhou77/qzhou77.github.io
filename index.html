@@ -1,0 +1,138 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Qiqi Zhou — PhD student at HKUST, researching efficient training and inference for graph neural networks and large language models.">
+  <meta name="theme-color" content="#233e73">
+  <title>Qiqi Zhou · Efficient Machine Learning</title>
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 40 40'%3E%3Crect width='40' height='40' rx='8' fill='%23233e73'/%3E%3Ctext x='20' y='28' text-anchor='middle' fill='white' font-family='Georgia' font-size='28'%3EQ%3C/text%3E%3C/svg%3E">
+  <script src="theme.js"></script>
+  <script src="citations.js" defer></script>
+  <script src="navigation.js" defer></script>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <a class="skip" href="#main">Skip to content</a>
+  <header class="site-header">
+    <div class="nav-inner">
+      <a href="#about" class="wordmark" aria-label="Qiqi Zhou, home">Qiqi Zhou</a>
+      <nav aria-label="Main navigation">
+        <a href="#about">About</a><a href="#news">News</a><a href="#research">Publications</a><a href="#experience">Experience</a><a href="#projects">Projects</a><a href="#awards">Awards</a>
+      </nav>
+      <button class="theme-toggle" type="button" aria-label="Switch to dark mode" title="Switch to dark mode">
+        <svg class="moon-icon" aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M20.5 13A8.5 8.5 0 0 1 11 3.5 8.5 8.5 0 1 0 20.5 13Z"/></svg>
+        <svg class="sun-icon" aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round"><circle cx="12" cy="12" r="4"/><path d="M12 2v2m0 16v2M2 12h2m16 0h2M4.93 4.93l1.42 1.42m11.3 11.3 1.42 1.42M4.93 19.07l1.42-1.42m11.3-11.3 1.42-1.42"/></svg>
+      </button>
+    </div>
+  </header>
+  <div class="page-layout">
+    <aside class="profile" aria-label="Profile">
+      <figure class="portrait">
+        <div class="portrait-frame">
+          <!-- 切换照片：注释当前的 img，再取消目标版本的注释；只保留一个 img 生效。每版的 style 已包含对应裁切参数。 -->
+          <!-- v1（黄色树林） -->
+          <!-- <img src="assets/qiqi-zhou-forest.jpg" width="4032" height="3024" style="width: 405.333333%; height: 304%; left: -176.666667%; top: -103.333333%;" alt="Qiqi Zhou in 大兴安岭"> -->
+          <!-- v2 （神龙湾侧面）-->
+          <!-- <img src="assets/qiqi-zhou.jpg" width="770" height="774" style="width: 108%; height: 108%; left: -4%; top: -4%; object-fit: cover; object-position: center;" alt="Qiqi Zhou in 大兴安岭"> -->
+          <!-- v3（黄色树林） -->
+          <!-- <img src="assets/qiqi-zhou-v3.png" width="4032" height="3024" style="width: 405.333333%; height: 304%; left: -164.444444%; top: -107.777778%;" alt="Qiqi Zhou in 大兴安岭"> -->
+          <!-- v4（背景稍暗的微笑半身照）-->
+          <img src="assets/qiqi-zhou-v4.jpg" width="6240" height="4160" style="width: 274.285714%; height: 182.857143%; left: -124.285714%; top: -54.285714%;" alt="Qiqi Zhou overlooking a river in 大兴安岭">
+        </div>
+        <figcaption lang="zh">大兴安岭</figcaption>
+      </figure>
+      <div class="profile-info">
+        <h1>Qiqi Zhou <span lang="zh">周琪琪</span></h1>
+        <p class="profile-role">PhD Student</p>
+        <p>Computer Science & Engineering<br>HKUST, Hong Kong</p>
+      </div>
+      <div class="profile-links">
+        <a href="mailto:qzhouam@connect.ust.hk" class="profile-email">qzhouam@connect.ust.hk</a>
+        <!-- <div><a href="assets/cv-en.pdf" target="_blank" rel="noopener">CV</a><span aria-hidden="true">/</span><a href="assets/cv-zh.pdf" target="_blank" rel="noopener" lang="zh">中文简历</a><span aria-hidden="true">/</span><a href="https://github.com/qzhou77">GitHub</a></div> -->
+      </div>
+    </aside>
+    <main id="main">
+      <section id="about" aria-labelledby="about-title">
+        <h2 id="about-title">About me</h2>
+        <p>I am a PhD student in Computer Science and Engineering at the <a href="https://hkust.edu.hk/">Hong Kong University of Science and Technology</a>. Previously, I received my bachelor’s degree from the <a href="https://en.ustc.edu.cn/">University of Science and Technology of China</a>.</p>
+        <p>My research focuses on <strong>efficient training and inference</strong> for graph neural networks and large language models. I work on optimization, knowledge distillation, model compression and GPU kernels, with the goal of making powerful models practical to train and deploy.</p>
+        <!-- <p>I also worked on generative retrieval and ranking for <strong>WeChat Channels Ads at Tencent</strong>.</p> -->
+        <p class="interests"><strong>Research interests:</strong> Graph learning · LLM compression · ML systems</p>
+        <p class="contact-note">I welcome discussions about efficient ML and research opportunities. Feel free to <a href="mailto:qzhouam@connect.ust.hk">email me</a>!</p>
+      </section>
+
+      <!-- <section id="news" aria-labelledby="news-title">
+        <div class="section-heading"><h2 id="news-title">News</h2><span class="scroll-hint">Scroll for earlier updates ↓</span></div>
+        <div class="news-scroll" tabindex="0" role="region" aria-label="News updates, scroll for earlier entries">
+          <ul class="news-list">
+            <li><span class="news-date recent">Accepted</span><p><a href="#pace-gnn">PACE-GNN</a> has been accepted to <strong>ICDE 2027</strong>!</p></li>
+            <li><time class="news-date" datetime="2026-05">2026.05</time><p>Completed my internship at Tencent, working on OneRec generative retrieval and live-ad ranking.</p></li>
+            <li><time class="news-date" datetime="2026-01">2026.01</time><p>Joined <strong>Tencent WeChat Channels Ads</strong> as a R&D intern.</p></li>
+            <li><time class="news-date" datetime="2025-07">2025.07</time><p>Our work on <a href="#pfnc">Pseudo Full Neighborhood Compensation (PFNC)</a> was published in <strong>PVLDB</strong>.</p></li>
+            <li><time class="news-date" datetime="2023-08">2023.08</time><p>Our paper on <a href="#brfe">input mismatch in deep GNN distillation</a> appeared at <strong>KDD 2023</strong>.</p></li>
+            <li><time class="news-date" datetime="2021">2021</time><p>Started my PhD at HKUST, supported by the <strong>Hong Kong PhD Fellowship Scheme</strong>.</p></li>
+          </ul>
+        </div>
+      </section> -->
+
+    <section id="research" class="section" aria-labelledby="research-title">
+      <h2 id="research-title">Publications</h2>
+      <article class="paper" id="pace-gnn">
+        <a class="paper-visual" href="assets/pace-gnn.png" target="_blank" rel="noopener" aria-label="Enlarge PACE-GNN overview"><img src="assets/pace-gnn.png" width="1417" height="525" alt="PACE-GNN progressively refines a compact community graph into a hybrid training graph"></a>
+        <div class="paper-body"><h3>PACE-GNN: Cost-Aware Progressive Graph Granularity Scheduling for Faster Convergence in GNN Training</h3><p class="authors"><strong>Qiqi Zhou</strong>, Yanyan Shen, Lei Chen</p><div class="paper-meta"><span class="venue">ICDE 2027</span><span>Accepted</span></div><p>Start with an inexpensive community graph, then selectively recover finer detail as training progresses. A cost-aware schedule and asynchronous graph refinement accelerate convergence while preserving final quality.</p><p class="result">Up to <strong>3.60×</strong> faster than full-graph training; <strong>6.35×</strong> faster than neighbor sampling.</p></div>
+      </article>
+      <article class="paper" id="pfnc">
+        <a class="paper-visual" href="assets/pfnc.png" target="_blank" rel="noopener" aria-label="Enlarge PFNC historical embedding cache diagram"><img src="assets/pfnc.png" width="689" height="303" loading="lazy" alt="Historical embeddings supplement sampled neighbors during GNN forward propagation"></a>
+        <div class="paper-body"><h3>Faster Convergence in Mini-batch Graph Neural Networks Training with Pseudo Full Neighborhood Compensation</h3><p class="authors"><strong>Qiqi Zhou</strong>, Yanyan Shen, Lei Chen</p><div class="paper-meta"><span class="venue">VLDB 2025</span></div><p>Neighbor sampling loses both messages and gradient contributions. PFNC uses compact historical embedding and gradient caches to compensate for both sources of error, improving convergence across sampling strategies.</p><p class="result">Evaluated across <strong>7 graph benchmarks</strong> and <strong>8 sampling methods</strong>.</p><div class="paper-links"><a href="https://www.vldb.org/pvldb/vol18/p4309-zhou.pdf" target="_blank" rel="noopener">Paper ↗</a><span class="citation-control"><button type="button" class="bibtex-button" data-citation="pfnc" aria-label="Copy BibTeX for PFNC">Copy BibTeX</button><span class="copy-status" role="status"></span></span><a href="https://github.com/qzhou77/PFNC-artifact">Code ↗</a></div></div>
+      </article>
+      <article class="paper" id="brfe">
+        <a class="paper-visual" href="assets/brfe.png" target="_blank" rel="noopener" aria-label="Enlarge BRFE input mismatch diagram"><img src="assets/brfe.png" width="1336" height="278" loading="lazy" alt="A shallow student has a smaller receptive field than its teacher; BRFE estimates the missing input"></a>
+        <div class="paper-body"><h3>Narrow the Input Mismatch in Deep Graph Neural Network Distillation</h3><p class="authors"><strong>Qiqi Zhou</strong>, Yanyan Shen, Lei Chen</p><div class="paper-meta"><span class="venue">KDD 2023</span></div><p>A shallow student and a deep teacher see different graph neighborhoods. The Bayesian Receptive Field Expander estimates missing information at the graph and node levels to make knowledge transfer more effective.</p><div class="paper-links"><a href="https://doi.org/10.1145/3580305.3599442" target="_blank" rel="noopener">Paper ↗</a><span class="citation-control"><button type="button" class="bibtex-button" data-citation="brfe" aria-label="Copy BibTeX for BRFE">Copy BibTeX</button><span class="copy-status" role="status"></span></span><a href="https://github.com/qzhou77/BRFE" target="_blank" rel="noopener">Code ↗</a></div></div>
+      </article>
+
+      <h3 class="subsection-heading">Ongoing research</h3>
+      <article class="paper ongoing" id="adassd">
+        <a class="paper-visual" href="assets/adassd.png" target="_blank" rel="noopener" aria-label="Enlarge AdaSSD architecture"><img src="assets/adassd.png" width="1400" height="397" loading="lazy" alt="AdaSSD pipeline: activation weighting, subspace clustering, shared basis fitting and calibrated reconstruction"></a>
+        <div class="paper-body"><h3>AdaSSD: Adaptive Subspace-Shared Delta Compression for Multiple LLMs</h3><p class="authors"><strong>Qiqi Zhou</strong>, Yanyan Shen, Lei Chen</p><div class="paper-meta"><span class="venue muted">Under review</span><span>LLM compression</span></div><p>Discover shared subspaces across specialized LLMs instead of anchoring every model to a fixed pretrained reference. Shared bases, private corrections and low-bit residuals support compressed-format inference and faster model switching.</p><p class="result"><strong>63.3–79.3%</strong> smaller switch payloads and <strong>1.62–2.08×</strong> faster switching for three 7B specialists.</p></div>
+      </article>
+      <article class="compact-project" id="rof"><div><div class="paper-meta"><span class="venue muted">Work in progress</span><span>CUDA · Graph learning</span></div><h3>ROF: A Reuse-Oriented Framework for Accelerating Graph Neural Networks Training</h3><p>Co-design graph reuse structures and CUDA aggregation kernels to avoid redundant computation and memory access. Experiments show up to 1.61× faster training than a standard PyTorch Geometric implementation.</p></div></article>
+    </section>
+
+
+      <!-- <section id="experience" aria-labelledby="experience-title">
+        <h2 id="experience-title">Experience</h2>
+        <div class="timeline-entry"><p class="entry-date">Jan–May 2026</p><div><h3>Tencent · WeChat Channels Ads</h3><p class="role">Research Intern</p><p>Worked on OneRec generative retrieval and live-ad ranking, connecting efficient model design with large-scale recommendation.</p><ul><li>Generative retrieval with semantic codebooks and eCPM-based rewards.</li><li>Parameter and sequence scaling under inference constraints.</li><li>Delivery-probability objectives and behavior modeling for LTR ranking.</li></ul></div></div>
+      </section> -->
+
+      <section id="projects" aria-labelledby="projects-title">
+        <h2 id="projects-title">Other projects</h2>
+        <article class="project-entry"><h3><a href="https://github.com/KiritoHugh/attention_kernel_triton">Attention kernels in Triton</a></h3><p>A collection of GPU attention kernels covering prefill, variable-length batches, paged KV-cache decoding and sparse attention, with support for GQA and MagicPIG importance sampling.</p><p class="project-links"><a href="https://github.com/KiritoHugh/attention_kernel_triton">Code ↗</a></p></article>
+      </section>
+
+      <section id="education" aria-labelledby="education-title">
+        <h2 id="education-title">Education</h2>
+        <div class="timeline-entry"><p class="entry-date">2021–Present</p><div><h3>Hong Kong University of Science and Technology</h3><p>PhD in Computer Science and Engineering</p></div></div>
+        <div class="timeline-entry"><p class="entry-date">2016–2020</p><div><h3>University of Science and Technology of China</h3><p>BEng in Electronic Engineering and Information Science</p></div></div>
+      </section>
+
+      <section id="awards" aria-labelledby="awards-title">
+        <h2 id="awards-title">Honors & awards</h2>
+        <ul class="award-list">
+          <li><span>2021</span><p><strong>Hong Kong PhD Fellowship Scheme</strong> (HKPFS)</p></li>
+          <li><span>2021</span><p><strong>HKUST RedBird PhD Award</strong></p></li>
+          <li><span>2020</span><p><strong>Outstanding Graduate Award</strong>, USTC</p></li>
+          <!-- <li><span>2018</span><p><strong>EE Elite Class Top-notch Scholarship</strong>, USTC</p></li> -->
+          <li><span>2017-2019</span><p><strong>Outstanding Student Scholarship</strong>, USTC</p></li>
+          <li><span>2017</span><p><strong>National Scholarship</strong></p></li>
+        </ul>
+      </section>
+      <section id="contact" aria-labelledby="contact-title">
+        <h2 id="contact-title">Contact</h2>
+        <p>For research discussions and opportunities: <a href="mailto:qzhouam@connect.ust.hk">qzhouam@connect.ust.hk</a></p>
+      </section>
+      <footer><span>© 2026 Qiqi Zhou · Updated September 2026</span><a href="#about">Back to top ↑</a></footer>
+    </main>
+  </div>
+</body>
+</html>
